@@ -1,0 +1,182 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+.navbar {
+  background-color: #1d0931;
+  color: rgb(233, 221, 252);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.menu a {
+  color: rgb(233, 221, 252);
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: #eee;
+}
+
+.hero-box {
+  background-color: rgb(206, 176, 253);
+  border: 0px solid #333;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  background-color: #1d0931;
+  color: rgb(241, 230, 255);
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* Hobbies */
+.hobbies {
+  padding: 30px;
+  text-align: center;
+}
+
+.hobby-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.hobby {
+  background-color: #dcbffd;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.hobby-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Sobre mí */
+.about {
+  padding: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.about-box {
+  background-color: #d2c2ff;
+  border: 3px solid #1d0931;
+  border-radius: 10px;
+  padding: 20px 30px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.about-container {
+  display: flex;
+  align-items: center; /* Centra verticalmente la foto */
+  gap: 20px;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 200px; /* Bloque fijo para la foto */
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.about-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas */
+  gap: 20px;
+}
+
+.column {
+  background-color: #d2c2ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Contacto */
+.contact {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-box {
+  background-color: #ccb6ff;
+  border: 0px solid #333;
+  border-radius: 10px;
+  padding: 20px 30px;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-info a {
+  color: #1d0931;
+  text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  background-color: #1d0931;
+  color: rgb(227, 202, 255);
+  text-align: center;
+  padding: 15px;
+}
+
+.footer a {
+  color: rgb(227, 202, 255);
+  text-decoration: none;
+  margin: 0 5px;
+}
