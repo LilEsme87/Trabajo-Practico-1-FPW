@@ -144,27 +144,44 @@ body {
 }
 
 .contact-box {
-  background-color: #ccb6ff;
-  border: 0px solid #333;
+  background-color: #f9f9f9;
+  border: 2px solid #211a2e;
   border-radius: 10px;
   padding: 20px 30px;
   max-width: 600px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.contact-info {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.contact-title {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #190c3b;
 }
 
-.contact-info a {
-  color: #1d0931;
-  text-decoration: none;
+.contact-form {
+  display: flex;
+  flex-direction: column; /* Inputs en columna */
+  gap: 15px;
+}
+
+.input, .textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.textarea {
+  min-height: 100px;
+  resize: vertical; /* Permite agrandar el área de texto */
+}
+
+.btn {
+  background-color: #1e0d3d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  align-self: flex-start; /* Botón alineado a la izquierda */
 }
 
 /* Footer */
